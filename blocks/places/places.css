@@ -1,0 +1,8 @@
+.places{
+}
+@media screen and (max-widht: 320px) {
+    .place__description{
+       flex-direction: column;
+    }
+    
+ }

@@ -1,0 +1,20 @@
+.header__languages {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 6px;
+}
+.header__languages_lang-link{
+    color: white;
+    width: 29px;
+    text-decoration: none;
+}
+.header__languages_lang-link:hover{
+    opacity: 0.7;
+    transition: 0.3s linear;
+    text-decoration-line: underline;
+}
+@media screen and (max-width: 320px) {
+    .header__languages_lang-link{
+        width: 22px;
+    }
+}

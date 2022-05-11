@@ -1,0 +1,9 @@
+.place__info {
+    display: inline-flex;
+    align-items: flex-end;
+}
+@media screen and (max-widht: 320px) {
+    .place__info{
+       flex-direction: column;
+    }
+}
