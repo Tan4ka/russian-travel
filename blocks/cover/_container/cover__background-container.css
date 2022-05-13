@@ -18,7 +18,11 @@
     height: auto;
     opacity: 0.8;
 }
-
+@media screen and (max-width: 1280px) {
+    .cover__background-container{
+        box-sizing: border-box;
+    }
+    }
 @media screen and (max-width: 1024px) {
     .cover__background-container {
         padding: 0;
