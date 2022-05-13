@@ -1,8 +1,22 @@
-.places{
+.places {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+}
+@media screen and (max-widht: 768px) {
+   .places {
+      max-width: 768px;
+      flex-direction: column; 
+      
+   }
+
 }
 @media screen and (max-widht: 320px) {
-    .place__description{
-       flex-direction: column;
-    }
-    
- }
+   .places {
+      max-width: 320px;
+      flex-direction: column;
+      
+   }
+
+}

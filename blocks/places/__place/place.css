@@ -2,13 +2,22 @@
     margin-top: 92px;
     display: flex;
     flex-direction: column;
+    margin-left: 148px;
 }
-.place__texts {
-    margin-left: 40px;
+@media screen and (max-width: 1024px) {
+    .place {
+        margin-left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place {
+        margin-top: 88px;
+        margin-left: 24px;
+    }
 }
 @media screen and (max-width: 320px) {
-    .place__description{
-       flex-direction: column;
+    .place {
+        margin-top: 50px;
+        margin-left: 0;
     }
-    
- }
+}

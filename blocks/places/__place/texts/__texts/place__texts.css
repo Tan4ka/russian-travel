@@ -1,13 +1,22 @@
-.place__texts{
+.place__texts {
     margin-left: 40px;
 }
+
 @media screen and (max-width: 1024px) {
-    .place__texts{
+    .place__texts {
         margin-left: 32px;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .place__texts{
+    .place__texts {
         margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__texts {
+        margin-left: 16px;
+        margin-top: 32px;
     }
 }
