@@ -7,6 +7,7 @@
   margin-top: 8px;
   align-items: left;
   width: 100%;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1024px) {
   .lead__caption {
@@ -20,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     padding-left: 16px;
   }

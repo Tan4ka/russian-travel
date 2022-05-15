@@ -15,7 +15,7 @@
         margin-left: 24px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place {
         margin-top: 50px;
         margin-left: 0;
