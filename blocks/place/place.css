@@ -3,22 +3,26 @@
     flex-direction: column;
     margin-left: 148px;
     margin-top: 80px;
-   
+
 }
-.place:first-child{
+
+.place:first-child {
     margin-top: 0;
 }
+
 @media screen and (max-width: 1279px) {
     .place {
         margin-left: 48px;
     }
 }
+
 @media screen and (max-width: 1023px) {
     .place {
-     margin-top: 73px; 
+        margin-top: 73px;
         margin-left: 24px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .place {
         margin-top: 50px;
