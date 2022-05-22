@@ -1,21 +1,22 @@
 .place__image {
     width: 100%;
     max-width: 460px;
+    /* со свойством min-height картинка непропорционально вытягивается */
     height: 460px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place__image {
         max-width: 440px;
-        height: 440px;
-        
+        height: 440px; 
+
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place__image {
         max-width: 340px;
-        height: 340px;
+        height: 340px; 
     }
 }
 
@@ -24,6 +25,6 @@
         max-width: 320px;
         height: 320px;
         width: 100%;
-         padding-left: 0; 
+        padding-left: 0;
     }
 }

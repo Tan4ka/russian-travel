@@ -2,9 +2,10 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    max-width: 560px;
     color: white;
     z-index: 3;
-    width: 560px;
+    align-items: center;
     text-align: center;
     margin: 0;
 }

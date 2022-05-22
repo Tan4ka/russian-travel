@@ -1,0 +1,31 @@
+.header__lang-link {
+    color: white;
+    max-width: 29px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 18px;
+}
+
+.header__lang-link:last-child {
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    opacity: 0.9;
+    transition: 0.3s linear;
+}
+
+.header__lang-link:active {
+    text-decoration-line: underline;
+
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        max-width: 22px;
+    }
+}
