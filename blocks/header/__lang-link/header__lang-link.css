@@ -1,10 +1,11 @@
 .header__lang-link {
     color: white;
-    max-width: 29px;
+    max-width: 30px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     margin-left: 18px;
+    text-decoration: underline;
 }
 
 .header__lang-link:last-child {

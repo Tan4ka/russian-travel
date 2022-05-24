@@ -1,4 +1,5 @@
 .place__info {
+    margin: 0;
     display: flex;
     align-items: flex-end;
 }
